@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>HARBOR RADIO</title>
+      <link rel="stylesheet" href="assets/css/dropcast.css">
+      <link rel="author" href="humans.txt">
+      <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Rufina:400,700|Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    </head>
+    <body class="page--detail">
+      <nav>
+        <div class="logo nav__logo">
+          <a href="index.html"><img src="assets/images/logo.svg" alt="logo"/></a>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="">Radio</a></li>
+        </ul>
+        <ul class="nav__social">
+          <li><a href="#" class="nav_social__item"><i class="fab fa-google-play"></i></a></li>
+          <li><a href="#" class="nav_social__item"><i class="fab fa-itunes-note"></i></a></li>
+          <li><a href="#" class="nav_social__item"><i class="fas fa-rss-square"></i></a></li>
+        </ul>
+      </nav>
+      <section class="site">
+        <div id="site__bg"></div>
+        <div class="left">
+          <label for="" class="site__label">#1</label>
+          <h1 class="site__title site__title--separator">餃子</h1>
+        </div>
+        <div class="right">
+          <img src="assets/images/photos/original/1.png" alt="" class="episode__image">
+          <div class="audio-player site__playbar">
+            <div class="loading">
+              <div class="spinner"></div>
+            </div>
+            <button class="play-pause-btn play"></button>
+            <div class="controls">
+              <span class="current-time">0:00</span>
+              <div class="slider" data-direction="horizontal">
+                <div class="progress">
+                  <div class="pin" id="progress-pin" data-method="rewind"></div>
+                </div>
+              </div>
+              <span class="total-time">0:00</span>
+            </div>
+
+            <audio preload="true">
+              <source src="assets/audio/1饺子.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+          <h4 class="site__secondary_title">歌词</h4>
+          <p class="site__description">《餃子》<br>父亲 您那里都好吗？季节又变换了 天凉了<br>
+虽然我不知道 现在的您在哪里 但还是要跟您报告一些事情<br>
+三姐去美国了 小宝官校毕业了 新店溪旁的垂柳还在风中飘逸<br>
+我还在原来的地方混著 但是您放心 虽然我们没有像您期望的那么坚强<br>
+说了一堆 也不知道您能不能听得见<br>
+最想念您做的饺子 最想念您说话的模样 最想念南机场 </p>
+          <div class="site__navigation">
+            <!-- toggle on the previous as needed -->
+            <a href="detail4.html" class="site__navigation_items site__navigation_items--left hidden">
+              <label for="">Previous Episode</label>
+              <h4>Dylan Perry</h4>
+            </a>
+            <a href="detail2.html" class="site__navigation_items site__navigation_items--right">
+              <label for="">Next Episode</label>
+              <h4>三姐</h4>
+            </a>
+          </div>
+        </div>
+      </section>
+      <script src="assets/js/dropcast.js"></script>
+      <script src="assets/js/player.js"></script>
+    </body>
+</html>
